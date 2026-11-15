@@ -38,6 +38,19 @@ motionContext.add('(prefers-reduced-motion: no-preference)',()=>{
   gsap.utils.toArray('.service').forEach(row=>gsap.from(row,{y:24,opacity:.35,duration:.65,ease:'power3.out',scrollTrigger:{trigger:row,start:'top 92%',once:true},clearProps:'transform,opacity'}));
   gsap.from('.art-caption',{x:-24,duration:.9,ease:'power3.out',scrollTrigger:{trigger:'.about-art',start:'top 70%',once:true},clearProps:'transform'});
 });
+motionContext.add('(hover: none) and (prefers-reduced-motion: no-preference)',()=>{
+  // Touch visitors discover the photographs through scrolling, without a cursor.
+  gsap.utils.toArray('.gallery-item').forEach(card=>{
+    gsap.fromTo(card.querySelector('img'),{scale:1.14},{scale:1,ease:'none',scrollTrigger:{trigger:card,start:'top bottom',end:'bottom 35%',scrub:.4}});
+    gsap.from(card.querySelector('figcaption'),{y:24,opacity:.3,duration:.65,ease:'power3.out',scrollTrigger:{trigger:card,start:'top 75%',once:true},clearProps:'transform,opacity'});
+  });
+  const rows=gsap.utils.toArray('.service');
+  rows.forEach(row=>ScrollTrigger.create({trigger:row,start:'top 60%',end:'bottom 40%',toggleClass:'touch-highlight'}));
+  gsap.utils.toArray('.steps article').forEach(step=>gsap.from(step,{y:24,opacity:.25,duration:.65,ease:'power3.out',scrollTrigger:{trigger:step,start:'top 85%',once:true},clearProps:'transform,opacity'}));
+  gsap.from('.invitation-preview',{rotation:-3,y:30,opacity:.5,duration:.9,ease:'power3.out',scrollTrigger:{trigger:'.invitation-preview',start:'top 85%',once:true},clearProps:'transform,opacity'});
+  gsap.to('.hero-scroll .circle-arrow',{y:7,duration:.65,yoyo:true,repeat:5,ease:'power2.inOut'});
+  return()=>rows.forEach(row=>row.classList.remove('touch-highlight'));
+});
 motionContext.add('(min-width: 901px) and (prefers-reduced-motion: no-preference)',()=>{
   gsap.to('.hero-backdrop',{yPercent:15,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
   gsap.to('.hero-copy',{y:-65,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
@@ -86,3 +99,4 @@ document.querySelectorAll('[data-occasion]').forEach(button=>button.addEventList
 }));
 document.querySelector('#invitation-name').addEventListener('input',event=>{document.querySelector('#invitation-person').textContent=event.target.value.trim()||'Your people. Your celebration.';});
 document.querySelector('#plan-occasion').addEventListener('click',()=>{document.querySelector('#event').value=chosenOccasion;document.querySelector('#enquiry-result').hidden=true;});
+

@@ -26,3 +26,17 @@ html.motion-off{scroll-behavior:auto}.motion-off *, .motion-off *::before,.motio
 @media(max-width:650px){.enquiry h2{font-size:clamp(48px,13vw,65px)}.enquiry h2 br:last-child{display:block}}
 .gallery.bento-grid{align-items:stretch}.gallery.bento-grid .gallery-item{height:100%;align-self:stretch}.gallery.bento-grid .image-open{height:100%}
 .bento-grid .image-action{display:flex;align-items:center;justify-content:center;gap:0}
+
+/* Touch has its own visual feedback, independent of cursor hover. */
+@media(hover:none){
+ .service.touch-highlight{background:#754581;color:#fff;border-color:#754581}
+ .service.touch-highlight p,.service.touch-highlight a{color:#fff}
+ .service.touch-highlight b{transform:rotate(45deg)}
+ .image-open,.scene-picker button,[data-layout],[data-occasion]{transition:transform 120ms var(--ease)}
+ .image-open:active,[data-layout]:active,[data-occasion]:active{transform:scale(.97)}
+ .image-action b{transition:transform 120ms var(--ease)}
+ .image-open:active .image-action b{transform:rotate(45deg)}
+}
+@media(prefers-reduced-motion:reduce){.image-open:active,[data-layout]:active,[data-occasion]:active{transform:none}}
+.motion-off .image-open:active,.motion-off [data-layout]:active,.motion-off [data-occasion]:active{transform:none}
+
