@@ -40,3 +40,16 @@ html.motion-off{scroll-behavior:auto}.motion-off *, .motion-off *::before,.motio
 @media(prefers-reduced-motion:reduce){.image-open:active,[data-layout]:active,[data-occasion]:active{transform:none}}
 .motion-off .image-open:active,.motion-off [data-layout]:active,.motion-off [data-occasion]:active{transform:none}
 
+/* Real founder portrait, paired with the story rather than a stand-in. */
+.founder{align-items:center;gap:7vw}
+.founder-portrait{margin:0;max-width:480px}
+.founder-portrait img{aspect-ratio:3/4;object-fit:cover;object-position:center top;border-radius:180px 180px 12px 12px}
+.founder-portrait figcaption{display:flex;justify-content:space-between;gap:16px;padding-top:18px;font-size:14px;color:var(--ink)}
+.founder-portrait figcaption span{font-size:11px;color:var(--muted)}
+.founder .founder-eyebrow{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--purple);margin-bottom:24px}
+.founder-copy h2{margin-bottom:30px}
+.founder-copy h3{font-size:28px;margin-bottom:16px}
+.image-provenance{display:block;font-size:10px;line-height:1.5;margin-top:12px}
+.bento-grid .image-provenance{color:#fff}
+.about-art .image-provenance{color:var(--muted);margin-top:14px}
+@media(max-width:650px){.founder{gap:36px}.founder-portrait{width:100%;max-width:420px;margin:auto}.founder-portrait figcaption{flex-wrap:wrap;gap:6px}.founder-portrait img{border-radius:150px 150px 10px 10px}}

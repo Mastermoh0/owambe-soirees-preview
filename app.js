@@ -99,4 +99,3 @@ document.querySelectorAll('[data-occasion]').forEach(button=>button.addEventList
 }));
 document.querySelector('#invitation-name').addEventListener('input',event=>{document.querySelector('#invitation-person').textContent=event.target.value.trim()||'Your people. Your celebration.';});
 document.querySelector('#plan-occasion').addEventListener('click',()=>{document.querySelector('#event').value=chosenOccasion;document.querySelector('#enquiry-result').hidden=true;});
-

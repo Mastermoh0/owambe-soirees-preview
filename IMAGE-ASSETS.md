@@ -1,0 +1,19 @@
+# Generated celebration images
+
+Created with the built-in Image Generation tool on 16 November 2026. Founder portrait is user-supplied and was not regenerated. Original PNG masters are in assets/generated; compressed JPEGs and responsive 480px derivatives are in dist/images. Generated scenes depict fictional people and are labelled AI-generated inspiration, not client work.
+
+## reception
+
+Create a pristine high-resolution landscape editorial Nigerian wedding reception photograph, 1536x1024 composition. Reference image is for scene and atmosphere only: replace BOTH faces and people with entirely new fictional Nigerian adults, do not preserve identity. A bride wearing a bronze-gold modest formal gown and gele and a groom in refined ivory agbada and patterned cap hold hands at a luxurious reception, full-length couple in the middle-lower portion, ample elegant dark warm negative space across the upper middle for website title overlay. Warm champagne lighting, slender golden arch frames, sparkling cold-fountain stage effects at safe distance behind, subtle low fog at floor. Sharp real fabric texture, realistic skin, fine photographic detail, professional documentary event photography, restrained warm color grading. Clean image only, no text, logos, watermark. Balanced composition usable in a wide hero and centre-cropped portrait mobile hero.
+
+## couple
+
+Create a high-resolution portrait-oriented 1024x1536 editorial photograph inspired by the ceremonial attire and affectionate mood of this reference. Replace all identities with two entirely new fictional Nigerian adult people, visibly different faces. A smiling bride and groom look affectionately at each other, framed knees-up with headroom. Groom in richly woven navy ceremonial agbada with subtle white geometric patterns and restrained multicolored vertical accents, sculptural white turban with small red detail; bride in deep navy embroidered attire and royal blue gele, tasteful gold jewelry. Elegant warm architectural arch backdrop, natural soft light. Beautiful authentic woven textile and skin detail, crisp DSLR photograph, believable hands, polished wedding magazine image. No writing, watermark, logo, collage.
+
+## kamu
+
+Generate a pristine high-resolution portrait-oriented editorial photograph of an elegant Nigerian kamu celebration entrance inspired by the reference arrangement. Replace EVERY person's face and identity with entirely new fictional adult Nigerian women, not the people in the reference. Three women walk together: bride in intricately beaded emerald and silver modest full-length dress, matching green gele and translucent veil, two accompanying women in muted rose and warm copper lace dresses and sculptural matching geles. Natural poised expressions, coherent anatomy and hands. Luxurious emerald draped doorway with cream florals, warm indoor reception light, professional event photo with finely resolved lace and beadwork. Full-length figures with room around heads. No lettering over the drapery, no signs, no words, logos or watermark. 1024x1536.
+
+## bridal
+
+Generate a high-resolution portrait-oriented 1024x1536 luxury editorial Nigerian bridal portrait inspired only by the gold outfit and warm photographic mood of reference. Entirely new fictional adult Nigerian woman, distinctly different face and hairstyle; NOT the source person and not any founder. Waist-up portrait angled gently towards camera, graceful confident expression, elegant modest bronze-gold embellished gown with fine beaded fringe, exquisite neat styling, gold earrings and restrained headpiece. Warm cream architectural wall panels, soft flattering professional portrait light, crisp lifelike skin and extraordinary textile detail, natural proportions and beautiful hands. Sophisticated wedding editorial photography, no writing, no logo, no watermark.
